@@ -1,0 +1,310 @@
+/* estilos.css en carpeta /css */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial, sans-serif;
+	background-color: white;
+
+}
+
+.contenedor{
+	clear: both;
+	max-width: 1000px;
+	background-color: #FFFFFF;
+	margin-left: 150px;
+	border-radius: 8px 8px 0 0;
+	height: 2000px;
+}
+
+.botonera{
+	background-color: #FF9900;
+	border-radius: 8px 8px 0 0;
+	/* padding-left: 50px; */
+}
+
+.botonera ul{
+	padding-left: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	list-style-type: none;
+	/* background-color: green; */
+	
+	/* Hack para devolverle el alto a la botonera */
+	overflow: auto;
+}
+
+.botonera a{
+	/* background-color: pink; */
+	display: block;
+	float: left;
+	
+	/* width: 100px;
+	   text-align: center;
+	*/
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-right: 1px solid #EEBB00;
+}
+
+.botonera a:hover{
+	color: #333333;
+}
+
+
+
+
+
+/* ------------------- SLIDER ------------------- */
+.slider{
+		margin-top: 0px;
+		text-align: center;
+		width: 1000px;
+		height: 570px;
+		position: relative;
+	
+}
+	
+	
+
+
+/* ------------------- CATEGORIAS ------------------- */
+.categorias{
+	margin-top: 30px;
+	padding-left: 15px;
+	width: 20%;
+	float: left;
+}
+
+.categorias ul{
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.categorias a{
+	display: block;
+	padding: 6px 0;
+	border-bottom: 1px dashed #666666;
+	color: #333333;
+	font-size: 14px;
+	text-decoration: none;
+	
+}
+
+.categorias a:hover{
+	text-decoration: underline;
+}
+
+.categorias h3, .productos h2{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+/* ------------------- SOMOS ------------------- */
+
+#somos{
+	margin:auto;
+	margin-top:0px;
+	text-align:center;
+	padding:10px 10px;
+	width: 100%;
+	height: 160px;
+	float:left;
+	background-image: linear-gradient(#E9E3E3 10%, grey)
+}
+
+#somos p{
+	font-family: 'Segoe Print', sans-serif;
+	color: #C07A09;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+
+
+/* ------------------- PRODUCTOS ------------------- */
+#productos{
+	margin-top: 30px;
+	width: 80%;
+	float: right;
+	padding-left: 30px;
+	
+}
+#bebe, #pantalonnino, #pantalonnina,
+ #remeranina, #remeranino, #buzonino, #buzonina, #bermuda, 
+ #calza, #shortnino, #shortnina {
+	width: 100%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#bebe1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#bebe1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#pantalonnino1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#pantalonnino1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#pantalonnina1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#pantalonnina1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#remeranino1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#remeranino1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#remeranina1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#remeranina1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#buzonina1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#buzonina1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#buzonino1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#buzonino1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#bermuda1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#bermuda1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#calza1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#calza1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#shortnino1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#shortnino1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+#shortnina1 {
+	width: 50%;
+	margin-bottom: 30px;
+	float: left;
+}
+
+#shortnina1 p{
+	width: 50%;
+	font-size: 16px;
+	float: left;
+}
+
+/* ------------------- PIE ------------------- */
+
+.pie{
+	margin: auto;
+	margin-top: 150px;
+	padding: 50px;
+	margin-left: 500px;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
